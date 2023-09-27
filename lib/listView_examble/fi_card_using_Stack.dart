@@ -36,10 +36,9 @@ class FiCard extends StatelessWidget {
 
                   Transform.rotate(angle:90 * pi / 180,
                       child: FaIcon(FontAwesomeIcons.wifi,color: Colors.grey,)),
-
-
                   ],
               ),
+
         ),
                   Positioned(
                     bottom: 25,
@@ -49,9 +48,11 @@ class FiCard extends StatelessWidget {
                         fontWeight: FontWeight.bold,color: Colors.grey,fontSize: 24
                       ) ,),
                   ),
+
             Positioned(top: 190,right: 20,
                 child: Text("VISA",style: GoogleFonts.fahkwang(fontWeight: FontWeight.bold,color: Colors.grey,fontSize: 28)
                 )),
+
             Positioned(top: 20,right: 20,
               child: GradientText("FI",
                 style:GoogleFonts.libreBaskerville(fontWeight: FontWeight.bold,fontSize: 28),

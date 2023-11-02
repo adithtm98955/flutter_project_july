@@ -40,7 +40,7 @@ class FiCard extends StatelessWidget {
               ),
 
         ),
-                  Positioned(
+                 const Positioned(
                     bottom: 25,
                     left: 20,
                     child: Text("Adith T M",
